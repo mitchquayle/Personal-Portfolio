@@ -137,34 +137,10 @@ a img {
   .project-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .project-left {
-    justify-self: ;
-  }
-
-  .project-middle {
-    justify-self: ;
-  }
-
-  .project-right {
-    justify-self: ;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .project-container {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .project-left {
-    justify-self: ;
-  }
-
-  .project-middle {
-    justify-self: ;
-  }
-
-  .project-right {
-    justify-self: ;
   }
 }
