@@ -11,12 +11,12 @@ body {
 
 #navbar {
   position: relative;
-  bottom: 0;
   width: 100%;
   align-items: center;
   height: 70px;
   background-color: #151515;
   border-bottom: solid #f07900;
+  position: fixed;
 }
 
 .navbar-links {
@@ -76,7 +76,7 @@ a img {
   padding-top: 35px;
 }
 
-.project {
+.project-tile {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,4 +131,40 @@ a img {
 .contact-link a img {
   max-width: 20px;
   max-height: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .project-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-left {
+    justify-self: ;
+  }
+
+  .project-middle {
+    justify-self: ;
+  }
+
+  .project-right {
+    justify-self: ;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-left {
+    justify-self: ;
+  }
+
+  .project-middle {
+    justify-self: ;
+  }
+
+  .project-right {
+    justify-self: ;
+  }
 }
